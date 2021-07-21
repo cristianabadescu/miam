@@ -4,16 +4,26 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "92fe8a43-915f-4798-8787-d14e21037614": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "accent-1",
               "link": ""
             }
+          },
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "background-2",
+              "link": ""
+            }
           }
         },
         "block_order": [
+          "92fe8a43-915f-4798-8787-d14e21037614",
           "announcement-bar-0"
         ],
         "settings": {

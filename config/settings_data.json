@@ -51,9 +51,8 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
-              "heading": "Quick links",
+              "heading": "Informații legale",
               "menu": "footer"
             }
           }
@@ -62,7 +61,7 @@
           "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "newsletter_enable": false,
           "newsletter_heading": "Sign up to our emails",
           "show_social": false,

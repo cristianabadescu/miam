@@ -63,7 +63,7 @@
       ],
       "settings": {
         "height": "adapt",
-        "color_scheme": "accent-2",
+        "color_scheme": "inverse",
         "layout": "image_first"
       }
     },

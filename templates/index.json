@@ -33,28 +33,13 @@
         "adapt_height_first_image": false
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Cele mai miam",
-        "collection": "frontpage",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_vendor": false
-      }
-    },
     "image_text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Despre noi"
           }
         },
         "text": {
@@ -78,14 +63,28 @@
       ],
       "settings": {
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "layout": "image_first"
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Cele mai miam",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_products",
-    "image_text"
+    "image_text",
+    "featured_products"
   ]
 }

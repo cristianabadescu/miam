@@ -318,11 +318,10 @@
           <small class="copyright__content">{{ powered_by_link }}</small>
         </div>
         {%- if section.settings.payment_enable -%}
-          {% assign enabled_payment_types = 'visa,master' | remove: ' ' | split: ',' %}
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
             <ul class="list list-payment" role="list">
-              {%- for type in enabled_payment_types -%}
+              {%- for type in shop.enabled_payment_types -%}
                 <li class="list-payment__item">
                   {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
                 </li>

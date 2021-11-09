@@ -6,6 +6,8 @@
     "type_header_font": "poppins_n4",
     "type_body_font": "poppins_n4",
     "sold_out_badge_color_scheme": "inverse",
+    "social_facebook_link": "https:\/\/www.facebook.com\/miamcampulung\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/miam_campulung\/",
     "favicon": "shopify:\/\/shop_images\/miam-transparent.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/miam-logo.png",
     "checkout_logo_position": "left",

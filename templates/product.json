@@ -73,6 +73,13 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "58471e37-2cc6-4acc-91b5-c832cbd60bb1": {
+          "type": "text",
+          "settings": {
+            "text": "Cantitate: {{ product.metafields.my_fields.cantitate.value }}",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -86,7 +93,8 @@
         "description",
         "share",
         "14314bb8-d600-4891-a40d-bf199055b004",
-        "e17223ce-6257-43b4-b0ed-8abc62eddd77"
+        "e17223ce-6257-43b4-b0ed-8abc62eddd77",
+        "58471e37-2cc6-4acc-91b5-c832cbd60bb1"
       ],
       "settings": {
         "enable_sticky_info": true,

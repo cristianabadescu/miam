@@ -1,4 +1,8 @@
 /* Color custom properties */
+:root {
+  --color-base-background-3: 0, 0, 0;
+  --color-base-outline-button-labels-3: 255, 255, 255;
+}
 
 :root,
 .color-background-1 {
@@ -1670,6 +1674,8 @@ input[type='checkbox'] {
 
 /* Main Header Layout */
 .header-wrapper {
+  --color-foreground: var(--color-base-outline-button-labels-3);
+  --color-background: var(--color-base-background-3);
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));

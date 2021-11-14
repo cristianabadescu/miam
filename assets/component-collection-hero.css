@@ -55,7 +55,7 @@
 }
 
 .collection-hero__title + .collection-hero__description {
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 0 auto;
   font-size: 1.6rem;
   line-height: 1.5;
 }

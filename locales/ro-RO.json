@@ -54,9 +54,9 @@
     "month_year": "%B %Y"
   },
   "newsletter": {
-    "label": "E-mailul dvs.",
+    "label": "E-mail",
     "success": "Vă mulțumim că v-ați abonat",
-    "button_label": "Abonați-vă"
+    "button_label": "Abonare"
   },
   "accessibility": {
     "skip_to_text": "Salt la conținut",

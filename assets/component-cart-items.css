@@ -54,7 +54,8 @@
 }
 
 .cart-item__price-wrapper {
-  margin: 0;
+  margin: 0 0 0 1rem;
+  display: inline-block;
 }
 
 .cart-item__price-wrapper > * {
@@ -78,7 +79,7 @@
 
 .cart-item cart-remove-button {
   display: inline-block;
-  margin: 2rem 0 0 auto;
+  margin: 0 0 0 auto;
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -93,6 +94,7 @@ cart-remove-button .button {
   min-height: 4.5rem;
   padding: 0;
   margin: 0 0.1rem 0.1rem 0;
+  box-shadow: none;
 }
 
 @media screen and (min-width: 750px) {
@@ -229,7 +231,7 @@ cart-remove-button .icon-remove {
   }
 
   .cart-items td {
-    vertical-align: top;
+    vertical-align: middle;
     padding-top: 4rem;
   }
 

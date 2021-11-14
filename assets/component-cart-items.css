@@ -21,6 +21,7 @@
 
 .cart-item__image {
   max-width: 100%;
+  min-width: 75px;
 }
 
 .cart-item__details {
@@ -56,6 +57,7 @@
 .cart-item__price-wrapper {
   margin: 0 0 0 1rem;
   display: inline-block;
+  white-space: nowrap;
 }
 
 .cart-item__price-wrapper > * {
@@ -245,10 +247,6 @@ cart-remove-button .icon-remove {
 
   .cart-item__media {
     width: 7.5rem;
-  }
-
-  .cart-item quantity-input {
-    margin-top: 0.7rem;
   }
 
   .cart-items .medium-down {

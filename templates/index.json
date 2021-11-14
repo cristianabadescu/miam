@@ -33,8 +33,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MIAM-TOATE.jpg",
-        "desktop_text_box_position": "center",
+        "image": "shopify:\/\/shop_images\/berry-cheesecake.jpg",
+        "desktop_text_box_position": "flex-start",
         "color_scheme": "background-1",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": true

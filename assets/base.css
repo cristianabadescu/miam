@@ -1720,7 +1720,7 @@ input[type='checkbox'] {
   }
 
   .header:not(.header--middle-left) .header__inline-menu {
-    margin-top: 1.05rem;
+    margin-bottom: 1.05rem;
   }
 }
 
@@ -1986,7 +1986,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  padding: 1.2rem 1.6rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }

@@ -64,7 +64,6 @@
   box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
   font-size: 1.4rem;
   line-height: 1.2;
-  letter-spacing: 0.07rem;
 }
 
 .shopify-payment-button__button--unbranded:hover,
@@ -91,7 +90,6 @@
   margin: 1.6rem 0 1rem;
   font-size: 1.2rem;
   line-height: 1.5;
-  letter-spacing: 0.05rem;
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
@@ -146,7 +144,6 @@ fieldset.product-form__input .form__label {
   margin: 0.7rem 0.5rem 0.2rem 0;
   padding: 1rem 2rem;
   font-size: 1.4rem;
-  letter-spacing: 0.1rem;
   line-height: 1;
   text-align: center;
   transition: border var(--duration-short) ease;
@@ -202,7 +199,6 @@ fieldset.product-form__input .form__label {
 
 .shopify-payment-button__button {
   font-size: 1.5rem;
-  letter-spacing: .1rem;
 }
 
 /* Product info */

@@ -198,10 +198,6 @@
   margin-top: 1.1rem;
 }
 
-.card-information__wrapper .caption {
-  letter-spacing: 0.07rem;
-}
-
 .card-wrapper {
   color: inherit;
   display: block;

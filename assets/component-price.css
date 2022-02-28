@@ -83,6 +83,10 @@
   color: rgba(var(--color-foreground), 0.75);
 }
 
+.price--on-sale .price-item--sale {
+  margin-left: 5px;
+}
+
 .unit-price {
   font-size: 1.1rem;
   line-height: 1.2;

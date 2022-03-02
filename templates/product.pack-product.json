@@ -58,6 +58,7 @@
         },
         "14314bb8-d600-4891-a40d-bf199055b004": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingrediente",
             "content": "<p>{{ product.metafields.my_fields.ingrediente.value }}<\/p>",
@@ -67,6 +68,7 @@
         },
         "e17223ce-6257-43b4-b0ed-8abc62eddd77": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Declaratie nutritionala",
             "content": "<p>Valoare energetica:{{ product.metafields.my_fields.valoare_energetica.value }}<\/p><p>Grasimi: {{ product.metafields.my_fields.grasimi.value }}<\/p><p>Glucide: {{ product.metafields.my_fields.glucide.value }}<\/p><p>Proteine: {{ product.metafields.my_fields.poteine.value }}<\/p><p>Sare: {{ product.metafields.my_fields.sare.value }}<\/p>",

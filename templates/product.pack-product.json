@@ -78,6 +78,7 @@
         },
         "58471e37-2cc6-4acc-91b5-c832cbd60bb1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Cantitate: {{ product.metafields.my_fields.cantitate.value }}",
             "text_style": "body"

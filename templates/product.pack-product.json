@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "14314bb8-d600-4891-a40d-bf199055b004": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingrediente",
+            "content": "<p>{{ product.metafields.my_fields.ingrediente.value }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "e17223ce-6257-43b4-b0ed-8abc62eddd77": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Declaratie nutritionala",
+            "content": "<p>Valoare energetica:{{ product.metafields.my_fields.valoare_energetica.value }}<\/p><p>Grasimi: {{ product.metafields.my_fields.grasimi.value }}<\/p><p>Glucide: {{ product.metafields.my_fields.glucide.value }}<\/p><p>Proteine: {{ product.metafields.my_fields.poteine.value }}<\/p><p>Sare: {{ product.metafields.my_fields.sare.value }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "58471e37-2cc6-4acc-91b5-c832cbd60bb1": {
+          "type": "text",
+          "settings": {
+            "text": "Cantitate: {{ product.metafields.my_fields.cantitate.value }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share",
+        "14314bb8-d600-4891-a40d-bf199055b004",
+        "e17223ce-6257-43b4-b0ed-8abc62eddd77",
+        "58471e37-2cc6-4acc-91b5-c832cbd60bb1"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "Te-ar putea interesa si",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

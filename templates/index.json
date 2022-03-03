@@ -78,14 +78,14 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Recomandările noastre",
+        "title": "Pachete promoționale",
         "collection": "produse-homepage",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "show_secondary_image": false,
-        "add_image_padding": false,
+        "add_image_padding": true,
         "show_vendor": false
       }
     }

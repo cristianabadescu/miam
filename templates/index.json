@@ -18,10 +18,10 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Cumpără acum",
+            "button_label_1": "Comandă acum",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Vezi cum le facem",
+            "button_label_2": "Despre noi",
             "button_link_2": "shopify:\/\/pages\/despre-noi",
             "button_style_secondary_2": true
           }

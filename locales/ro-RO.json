@@ -385,6 +385,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "payment_gateway": {
+        "cash_on_delivery_label": "Numerar la livrare (+5 RON)"
+      }
     }
   }
 }

@@ -6,8 +6,51 @@
       "settings": {
       }
     },
+    "1647890528c076db1c": {
+      "type": "image-banner",
+      "blocks": {
+        "16478905287b83dabb-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "16478905287b83dabb-1": {
+          "type": "text",
+          "settings": {
+            "text": "Miam este o mică afacere de familie întemeiată in Câmpulung Muscel, care încearcă să vă aducă mai aproape savoarea fructelor crescute la înălțime.  Procesăm fructe și legume culese preponderent din flora spontană, însa și de la micii fermieri locali."
+          }
+        },
+        "16478905287b83dabb-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16478905287b83dabb-0",
+        "16478905287b83dabb-1",
+        "16478905287b83dabb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/perfecta9.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
     "164789004587a2165a": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1647890045ac462832-0": {
           "type": "heading",
@@ -76,54 +119,12 @@
         "color_scheme": "inverse",
         "layout": "image_first"
       }
-    },
-    "1647890528c076db1c": {
-      "type": "image-banner",
-      "blocks": {
-        "16478905287b83dabb-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner"
-          }
-        },
-        "16478905287b83dabb-1": {
-          "type": "text",
-          "settings": {
-            "text": "Miam este o mică afacere de familie întemeiată in Câmpulung Muscel, care încearcă să vă aducă mai aproape savoarea fructelor crescute la înălțime.  Procesăm fructe și legume culese preponderent din flora spontană, însa și de la micii fermieri locali."
-          }
-        },
-        "16478905287b83dabb-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16478905287b83dabb-0",
-        "16478905287b83dabb-1",
-        "16478905287b83dabb-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/perfecta9.jpg",
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
-      }
     }
   },
   "order": [
     "main",
+    "1647890528c076db1c",
     "164789004587a2165a",
-    "164788969070c4814c",
-    "1647890528c076db1c"
+    "164788969070c4814c"
   ]
 }

@@ -11,20 +11,20 @@
         "164788969064f0a6ca-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Ingrediente"
           }
         },
         "164788969064f0a6ca-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pentru că folosim doar ingrediente naturale, produsele noastre au la bază doar 3 ingrediente - fruct, zahăr și sare de lămâie.<\/p><p><\/p><p>Lipsa automatizării ne permite să sortăm, să preparăm și să ambalăm cu o atenție sporită, care oferă produselor noastre o calitate superioară.<\/p>"
           }
         },
         "164788969064f0a6ca-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Vezi produsele",
+            "button_link": "shopify:\/\/collections"
           }
         }
       },
@@ -35,8 +35,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/P1012711.jpg",
-        "height": "large",
-        "color_scheme": "inverse",
+        "height": "adapt",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     }

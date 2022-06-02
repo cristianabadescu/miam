@@ -389,6 +389,9 @@
     "checkout": {
       "payment_gateway": {
         "cash_on_delivery_label": "Numerar la livrare (+5 RON)"
+      },
+      "order_summary": {
+        "shipping_default_value": "Calculat la următorul pas"
       }
     }
   }
